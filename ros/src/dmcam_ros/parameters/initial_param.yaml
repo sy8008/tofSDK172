@@ -1,0 +1,40 @@
+#initialize tof with these parameters
+  dev_mode: 0
+  mod_freq: 12000000
+  format: 2
+  power_percent: 60
+  fps: 20
+  filter: 30 #the window length of midfilter
+  reverse: FALSE #the flag about if reverse of canvas is needed.
+  intg_us: 100
+  srow: 0
+  erow: 240
+  scol: 0
+  ecol: 320
+  cur_fsize: 614400 #153600 
+  max_fsize: 614400 #153600 
+  sync_delay: 0
+
+#camera parameter
+ #narrow fov
+#  cx: 162.00374
+#  cy: 110.05493
+#  fx: 319.33169
+#  fy: 319.25846
+  scale: 1.0
+
+ # wide fov(offical provided)
+  cx: 157.262
+  cy: 122.083
+  fx: 210.783
+  fy: 204.817
+  dcoeff: [-0.378924, 0.145035, -0.000970854, 6.20728e-005, -0.0133954]
+
+ # wide fov(calibration result)
+#  cx: 155.21149
+#  cy: 126.29156
+#  fx: 224.16583
+#  fy: 223.97265
+#  dcoeff: [-0.30304, 0.18985, 0.01200, -0.00819, 0.00000]
+#switch test mode(under test mode, you can see more information in terminal and images)
+  testmode: FALSE

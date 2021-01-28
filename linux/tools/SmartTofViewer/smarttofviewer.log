@@ -1,0 +1,575 @@
+2019-09-04 14:48:59.620[WAR]     config_load@  260: open file config.json failed: [Errno 2] No such file or directory: 'config.json'
+2019-09-04 14:48:59.621[INF]        <module>@  125: 
+----------------------------------------------
+2019-09-04 14:48:59.621[INF]        <module>@  129: Load resources (path=/tmp/_MEIcwAg1b)
+2019-09-04 14:49:00.428[INF]             run@ 2427:  cam daemon started...
+2019-09-04 14:49:00.728[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:49:00.741[INF]on_exposure_upda@ 2250: us=1500,0
+2019-09-04 14:49:02.116[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:002
+2019-09-04 14:49:02.198[INF]  dev_get_params@  401:   fmt=0x0, freq=[12000000, 0], exposure=700,700, roi=0 (4, 6, 323, 125)
+2019-09-04 14:49:02.199[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:49:02.199[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:49:02.201[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:49:02.206[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:49:02.207[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:49:02.207[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:49:02.228[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:49:02.255[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:49:02.277[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:49:12.285[INF]_job_poll_dev_do@  267: poll_dev job spends: 11.556 secs
+2019-09-04 14:50:56.321[ERR]     on_btn_stop@ 1618: device is not opened!
+2019-09-04 14:50:56.322[INF]     on_btn_quit@ 1647: quit...
+2019-09-04 14:50:56.329[INF]            main@ 2611: exit main loop
+2019-09-04 14:50:56.342[INF]             run@ 2488:  cam daemon exit...
+2019-09-04 14:50:58.818[INF]        <module>@  125: 
+----------------------------------------------
+2019-09-04 14:50:58.818[INF]        <module>@  129: Load resources (path=/tmp/_MEI2leZ04)
+2019-09-04 14:50:59.625[INF]             run@ 2427:  cam daemon started...
+2019-09-04 14:50:59.906[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:50:59.924[INF]on_exposure_upda@ 2250: us=1500,0
+2019-09-04 14:51:00.628[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:012
+2019-09-04 14:51:00.710[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:51:00.711[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:51:00.712[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:51:00.713[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:51:00.718[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:51:00.718[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:51:00.719[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:51:00.740[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:51:00.761[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:51:00.765[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:51:00.787[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:51:01.006[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.099 secs
+2019-09-04 14:51:15.678[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 14:51:16.368[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 14:51:16.369[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 14:51:16.514[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 14:51:16.587[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:51:16.588[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:51:16.631[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:51:16.631[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:51:16.633[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:51:16.677[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:51:16.677[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 14:51:16.814[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.136 secs
+2019-09-04 14:51:18.935[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 14:51:18.936[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 14:51:19.149[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 14:51:19.149[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:51:19.149[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:51:20.150[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:51:20.877[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:012
+2019-09-04 14:51:20.960[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:51:20.960[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:51:20.961[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:51:20.962[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:51:20.966[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:51:20.966[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:51:20.967[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:51:20.988[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:51:21.009[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:51:21.013[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:51:21.034[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:51:21.254[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.103 secs
+2019-09-04 14:51:30.764[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 14:51:31.488[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 14:51:31.488[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 14:51:31.633[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 14:51:31.706[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:51:31.707[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:51:31.749[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:51:31.749[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:51:31.751[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:51:31.793[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:51:31.794[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 14:51:31.931[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.168 secs
+2019-09-04 14:51:34.142[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 14:51:34.143[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 14:51:34.356[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 14:51:34.357[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:51:34.357[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:51:35.358[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:51:36.052[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:012
+2019-09-04 14:51:36.135[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:51:36.135[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:51:36.136[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:51:36.137[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:51:36.141[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:51:36.141[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:51:36.142[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:51:36.163[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:51:36.184[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:51:36.187[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:51:36.209[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:51:36.428[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.069 secs
+2019-09-04 14:51:37.731[INF]on_checkbox_auto@ 1847:  set auto intg to 1
+2019-09-04 14:51:37.731[INF]on_checkbox_auto@ 1851:  enable auto intg timer
+2019-09-04 14:51:54.946[ERR]     on_btn_stop@ 1618: device is not opened!
+2019-09-04 14:51:54.946[INF]     on_btn_quit@ 1647: quit...
+2019-09-04 14:51:54.955[INF]            main@ 2611: exit main loop
+2019-09-04 14:51:54.968[INF]             run@ 2488:  cam daemon exit...
+2019-09-04 14:52:05.958[INF]        <module>@  125: 
+----------------------------------------------
+2019-09-04 14:52:05.958[INF]        <module>@  129: Load resources (path=/tmp/_MEIIzOMut)
+2019-09-04 14:52:06.763[INF]             run@ 2427:  cam daemon started...
+2019-09-04 14:52:07.060[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:52:07.092[INF]on_exposure_upda@ 2250: us=1500,0
+2019-09-04 14:52:07.785[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:012
+2019-09-04 14:52:07.868[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:52:07.869[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:52:07.869[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:52:07.870[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:52:07.875[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:52:07.876[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:52:07.876[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:52:07.897[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:52:07.918[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:52:07.923[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:52:07.945[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:52:08.167[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.105 secs
+2019-09-04 14:52:12.959[INF]on_checkbox_auto@ 1847:  set auto intg to 1
+2019-09-04 14:52:12.959[INF]on_checkbox_auto@ 1851:  enable auto intg timer
+2019-09-04 14:52:17.295[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 14:52:18.016[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 14:52:18.017[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 14:52:18.163[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 14:52:18.235[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:52:18.236[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:52:18.280[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:52:18.280[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:52:18.282[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:52:18.324[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:52:18.325[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 14:52:18.462[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.168 secs
+2019-09-04 14:52:20.675[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 14:52:20.693[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 14:52:20.906[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 14:52:20.906[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:52:20.907[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:52:21.907[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:52:22.628[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:012
+2019-09-04 14:52:22.710[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:52:22.711[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:52:22.752[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:52:22.753[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:52:22.757[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:52:22.758[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:52:22.758[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:52:22.780[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:52:22.801[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:52:22.805[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:52:22.828[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:52:23.048[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.140 secs
+2019-09-04 14:52:54.375[INF] on_checkbox_pcl@ 1761: on_checkbox_pcl
+2019-09-04 14:52:55.851[INF] on_checkbox_pcl@ 1761: on_checkbox_pcl
+2019-09-04 14:53:03.773[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 14:53:04.469[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 14:53:04.470[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 14:53:04.615[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 14:53:04.687[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:53:04.689[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:53:04.733[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:53:04.733[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:53:04.735[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:53:04.778[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:53:04.779[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 14:53:04.956[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.183 secs
+2019-09-04 14:53:07.133[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 14:53:07.134[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 14:53:07.348[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 14:53:07.348[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:53:07.348[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:53:08.349[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:53:09.046[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:012
+2019-09-04 14:53:09.129[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:53:09.129[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:53:09.130[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:53:09.131[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:53:09.135[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:53:09.135[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:53:09.136[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:53:09.157[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:53:09.178[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:53:09.182[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:53:09.204[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:53:09.425[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.075 secs
+2019-09-04 14:54:06.730[ERR]     on_btn_stop@ 1618: device is not opened!
+2019-09-04 14:54:06.731[INF]     on_btn_quit@ 1647: quit...
+2019-09-04 14:54:06.739[INF]            main@ 2611: exit main loop
+2019-09-04 14:54:06.752[INF]             run@ 2488:  cam daemon exit...
+2019-09-04 14:55:14.499[INF]        <module>@  125: 
+----------------------------------------------
+2019-09-04 14:55:14.499[INF]        <module>@  129: Load resources (path=/tmp/_MEIkZgOO0)
+2019-09-04 14:55:15.304[INF]             run@ 2427:  cam daemon started...
+2019-09-04 14:55:15.595[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:55:15.629[INF]on_exposure_upda@ 2250: us=1500,0
+2019-09-04 14:55:15.816[INF]_job_poll_dev_do@  267: poll_dev job spends: 0.220 secs
+2019-09-04 14:55:16.816[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:55:17.502[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:014
+2019-09-04 14:55:17.584[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:55:17.585[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:55:17.586[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:55:17.587[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:55:17.591[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:55:17.592[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:55:17.592[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:55:17.613[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:55:17.634[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:55:17.640[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:55:17.661[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:55:17.884[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.068 secs
+2019-09-04 14:55:21.926[INF]  dev_uri_change@  351: URI change: None -> usb://001:001:014
+2019-09-04 14:55:22.026[INF] dev_poll_status@  256: check device status: url = b'usb://001:001:014'
+2019-09-04 14:55:22.719[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:014
+2019-09-04 14:55:22.801[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:55:22.802[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:55:22.802[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:55:22.803[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:55:22.805[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:55:22.806[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:55:22.806[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:55:22.827[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:55:22.848[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:55:22.852[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:55:22.873[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:55:23.093[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.065 secs
+2019-09-04 14:55:24.976[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 14:55:25.697[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 14:55:25.698[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 14:55:25.844[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 14:55:25.916[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:55:25.918[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:55:25.961[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:55:25.961[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:55:25.963[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:55:26.006[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:55:26.007[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 14:55:26.144[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.168 secs
+2019-09-04 14:55:28.351[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 14:55:28.352[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 14:55:28.565[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 14:55:28.565[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:55:28.566[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:55:29.566[INF] dev_poll_status@  256: check device status: url = b'usb://001:001:014'
+2019-09-04 14:55:30.289[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:014
+2019-09-04 14:55:30.372[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:55:30.372[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:55:30.373[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:55:30.374[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:55:30.378[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:55:30.378[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:55:30.379[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:55:30.399[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:55:30.421[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:55:30.425[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:55:30.449[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:55:30.668[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.101 secs
+2019-09-04 14:56:03.579[ERR]     on_btn_stop@ 1618: device is not opened!
+2019-09-04 14:56:03.579[INF]     on_btn_quit@ 1647: quit...
+2019-09-04 14:56:03.588[INF]            main@ 2611: exit main loop
+2019-09-04 14:56:03.596[INF]             run@ 2488:  cam daemon exit...
+2019-09-04 14:57:55.161[INF]        <module>@  125: 
+----------------------------------------------
+2019-09-04 14:57:55.161[INF]        <module>@  129: Load resources (path=/tmp/_MEIfgogqQ)
+2019-09-04 14:57:55.968[INF]             run@ 2427:  cam daemon started...
+2019-09-04 14:57:56.314[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:57:56.370[INF]on_exposure_upda@ 2250: us=1500,0
+2019-09-04 14:57:57.038[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:014
+2019-09-04 14:57:57.120[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:57:57.122[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:57:57.122[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:57:57.123[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:57:57.127[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:57:57.127[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:57:57.127[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:57:57.148[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:57:57.170[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:57:57.174[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:57:57.196[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:57:57.418[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.103 secs
+2019-09-04 14:58:00.159[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 14:58:00.853[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 14:58:00.854[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 14:58:00.999[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 14:58:01.072[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:01.073[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:58:01.115[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:01.116[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:58:01.118[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:58:01.161[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:01.162[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 14:58:01.298[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.139 secs
+2019-09-04 14:58:03.506[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 14:58:03.507[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 14:58:03.720[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 14:58:03.720[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:58:03.721[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:04.722[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:58:05.419[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:014
+2019-09-04 14:58:05.502[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:58:05.502[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:58:05.503[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:58:05.504[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:05.508[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:58:05.509[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:58:05.509[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:58:05.530[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:58:05.552[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:05.556[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:58:05.580[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:58:05.799[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.076 secs
+2019-09-04 14:58:10.804[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 14:58:11.510[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 14:58:11.511[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 14:58:11.656[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 14:58:11.728[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:11.729[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:58:11.771[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:11.771[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:58:11.773[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:58:11.815[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:11.815[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 14:58:11.952[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.148 secs
+2019-09-04 14:58:14.166[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 14:58:14.167[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 14:58:14.380[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 14:58:14.380[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:58:14.380[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:15.381[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:58:16.074[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:014
+2019-09-04 14:58:16.157[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:58:16.157[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:58:16.158[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:58:16.159[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:16.163[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:58:16.164[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:58:16.166[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:58:16.187[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:58:16.208[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:16.211[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:58:16.234[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:58:16.453[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.071 secs
+2019-09-04 14:58:21.609[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 14:58:22.293[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 14:58:22.294[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 14:58:22.439[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 14:58:22.511[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:22.512[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:58:22.556[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:22.556[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:58:22.558[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:58:22.601[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:22.602[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 14:58:22.738[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.129 secs
+2019-09-04 14:58:24.953[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 14:58:24.954[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 14:58:25.167[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 14:58:25.168[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:58:25.168[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:26.169[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:58:26.889[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:014
+2019-09-04 14:58:26.972[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:58:26.972[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:58:26.973[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:58:26.974[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:26.977[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:58:26.978[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:58:26.978[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:58:26.999[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:58:27.020[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:27.024[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:58:27.045[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:58:27.265[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.095 secs
+2019-09-04 14:58:34.238[INF]on_checkbox_auto@ 1847:  set auto intg to 1
+2019-09-04 14:58:34.238[INF]on_checkbox_auto@ 1851:  enable auto intg timer
+2019-09-04 14:58:37.619[INF]on_checkbox_lens@ 1799:  lens calib enable 1
+2019-09-04 14:58:39.345[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 14:58:40.037[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 14:58:40.037[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 14:58:40.183[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 14:58:40.255[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:40.298[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:58:40.340[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:40.340[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:58:40.342[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:58:40.387[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:40.387[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 14:58:40.524[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.179 secs
+2019-09-04 14:58:42.705[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 14:58:42.706[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 14:58:42.919[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 14:58:42.919[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:58:42.919[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:43.920[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:58:44.639[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:014
+2019-09-04 14:58:44.722[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:58:44.722[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:58:44.723[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:58:44.724[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:44.727[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:58:44.727[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:58:44.727[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:58:44.749[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:58:44.770[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:44.773[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:58:44.795[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:58:45.013[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.092 secs
+2019-09-04 14:58:52.048[INF] on_mfreq_update@ 2290: [24000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 14:58:53.493[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 14:58:54.215[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 14:58:54.216[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 14:58:54.361[INF] on_mfreq_update@ 2290: [24000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 14:58:54.508[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:54.550[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:58:54.592[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:54.593[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:58:54.595[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:58:54.638[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:54.639[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 14:58:54.776[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.283 secs
+2019-09-04 14:58:56.969[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 14:58:56.970[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 14:58:57.183[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 14:58:57.183[INF] on_mfreq_update@ 2290: [24000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:58:57.184[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:58.185[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:58:58.879[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:014
+2019-09-04 14:58:58.961[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:58:58.962[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:58:58.962[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:58:58.964[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:58:58.968[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:58:58.969[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:58:58.970[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:58:58.991[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:58:59.012[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:58:59.015[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:58:59.036[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:58:59.253[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.068 secs
+2019-09-04 14:59:10.789[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 14:59:11.482[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 14:59:11.483[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 14:59:11.627[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 14:59:11.700[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:59:11.701[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:59:11.743[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:59:11.744[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:59:11.746[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:59:11.832[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:59:11.833[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 14:59:11.970[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.181 secs
+2019-09-04 14:59:14.148[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 14:59:14.149[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 14:59:14.362[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 14:59:14.363[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:59:14.363[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:59:15.364[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 14:59:16.058[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:014
+2019-09-04 14:59:16.141[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 14:59:16.141[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 14:59:16.142[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 14:59:16.143[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 14:59:16.146[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 14:59:16.146[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 14:59:16.147[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 14:59:16.167[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 14:59:16.188[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 14:59:16.192[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 14:59:16.213[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 14:59:16.432[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.067 secs
+2019-09-04 14:59:46.185[INF]on_checkbox_lens@ 1799:  lens calib enable 0
+2019-09-04 14:59:48.603[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 14:59:49.299[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 14:59:49.299[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 15:00:01.979[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 15:00:02.192[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 15:00:02.192[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 15:00:02.192[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 15:00:02.193[INF]     on_btn_quit@ 1647: quit...
+2019-09-04 15:00:02.237[INF]            main@ 2611: exit main loop
+2019-09-04 15:00:02.249[INF]             run@ 2488:  cam daemon exit...
+2019-09-04 15:26:09.726[INF]        <module>@  125: 
+----------------------------------------------
+2019-09-04 15:26:09.727[INF]        <module>@  129: Load resources (path=/tmp/_MEIQjudKp)
+2019-09-04 15:26:10.538[INF]             run@ 2427:  cam daemon started...
+2019-09-04 15:26:10.814[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 15:26:10.824[INF]on_exposure_upda@ 2250: us=1500,0
+2019-09-04 15:26:11.512[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:002
+2019-09-04 15:26:11.597[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 15:26:11.597[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 15:26:11.597[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 15:26:11.598[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 15:26:11.599[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 15:26:11.599[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 15:26:11.599[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 15:26:11.620[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 15:26:11.641[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 15:26:11.643[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 15:26:11.664[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 15:26:11.877[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.062 secs
+2019-09-04 15:26:43.414[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 15:26:44.107[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 15:26:44.108[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 15:26:44.253[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 15:26:44.326[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 15:26:44.327[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 15:26:44.370[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 15:26:44.370[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 15:26:44.372[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 15:26:44.416[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 15:26:44.417[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 15:26:44.556[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.142 secs
+2019-09-04 15:26:46.674[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 15:26:46.675[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 15:26:46.889[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 15:26:46.889[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 15:26:46.890[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 15:26:47.890[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 15:26:48.569[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:002
+2019-09-04 15:26:48.650[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 15:26:48.650[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 15:26:48.650[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 15:26:48.650[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 15:26:48.651[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 15:26:48.652[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 15:26:48.652[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 15:26:48.672[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 15:26:48.693[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 15:26:48.695[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 15:26:48.715[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 15:26:48.929[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.039 secs
+2019-09-04 15:27:27.674[INF]  _job_btn_start@ 1544: open dev ...
+2019-09-04 15:27:28.368[INF]  _job_btn_start@ 1555: open dev ok.
+2019-09-04 15:27:28.369[INF]     cam_dev_cfg@ 2402: cap: replay=0, file=None
+2019-09-04 15:27:28.514[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=1, sync_ui=1
+2019-09-04 15:27:28.587[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 15:27:28.588[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 15:27:28.630[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 15:27:28.631[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 15:27:28.633[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 15:27:28.676[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 15:27:28.676[INF]  _job_btn_start@ 1588: start dev capturing
+2019-09-04 15:27:28.812[INF]_job_btn_start_d@ 1535: btn_start job spends: 1.138 secs
+2019-09-04 15:27:31.029[ERR]             run@ 2479: Sample wrong state! (code=0)
+2019-09-04 15:27:31.030[INF]     on_btn_stop@ 1621: stop dev capturing
+2019-09-04 15:27:31.243[INF]     on_btn_stop@ 1629: close device...
+2019-09-04 15:27:31.243[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 15:27:31.244[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 15:27:32.245[INF] dev_poll_status@  256: check device status: url = None
+2019-09-04 15:27:32.964[INF]  dev_get_params@  371: get device parameters... dev_uri=usb://001:001:002
+2019-09-04 15:27:33.047[INF]  dev_get_params@  401:   fmt=0x2, freq=[12000000, 0], exposure=700,700, roi=0 (65524, 65532, 65525, 65532)
+2019-09-04 15:27:33.047[INF] ui_update_param@  419: update device ui: dev=EPC
+2019-09-04 15:27:33.048[INF] on_mfreq_update@ 2290: [12000000, 0], sync_dev=0, sync_ui=1
+2019-09-04 15:27:33.049[INF]on_dev_calib_en_@ 2035: True, sync_dev=1, sync_ui=1
+2019-09-04 15:27:33.052[INF]on_combo_select_@ 1688: Select mode: Distance Color Coded
+2019-09-04 15:27:33.053[INF]on_combo_select_@ 1699: set fps to: 20
+2019-09-04 15:27:33.053[INF]   on_fps_update@ 2152: 20, sync_dev=1, sync_ui=0
+2019-09-04 15:27:33.074[INF]on_exposure_upda@ 2250: us=700,700
+2019-09-04 15:27:33.096[ERR]on_binning_mode_@ 2211:  set roi failed
+2019-09-04 15:27:33.099[INF] on_checkbox_hdr@ 1766:  set hdr enable 1
+2019-09-04 15:27:33.120[INF] ui_update_param@  470: exposure(us)=700,700
+2019-09-04 15:27:33.340[INF]_job_poll_dev_do@  267: poll_dev job spends: 1.095 secs
+2019-09-04 15:28:04.195[ERR]     on_btn_stop@ 1618: device is not opened!
+2019-09-04 15:28:04.196[INF]     on_btn_quit@ 1647: quit...
+2019-09-04 15:28:04.207[INF]            main@ 2611: exit main loop
+2019-09-04 15:28:04.220[INF]             run@ 2488:  cam daemon exit...

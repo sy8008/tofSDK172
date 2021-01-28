@@ -1,0 +1,241 @@
+
+---- DMCAM v1.60(compile at Nov 22 2018 03:34:01) log start -----
+20181128 15:00:20.039[1693947648][DM][DBG][usb_ll_dev_list] probe dmcam device (max=16) in 11 usb device
+20181128 15:00:20.039[1693947648][DM][DBG][usb_ll_dev_list]   DMCAM device (speed=3) found @ 005:001:003, 0x2582970
+20181128 15:00:20.388[1693947648][DM][DBG][dmcam_dev_open] open dmcam device @ 0x7f595e5a3220
+20181128 15:00:20.388[1693947648][DM][DBG][_usb_ll_dev_open]  create usb context
+20181128 15:00:20.390[1693947648][DM][DBG][_usb_ll_dev_open] found dmcam device (speed=3) @ 001:005:003
+20181128 15:00:20.391[1064113920][DM][DBG][_usb_ll_evt_thread] enter
+20181128 15:00:20.471[1693947648][DM][DBG][_dmcam_get_info] SENSOR: p/w/cid=7/252/143. HWID=0xF15BAF2307FC008F
+20181128 15:00:20.471[1693947648][DM][DBG][dmcam_drv_find]  find driver: EPC chip driver (device=TM-E2-1.0 [SW=156,BT=146,HW=20])
+20181128 15:00:20.471[1693947648][DM][DBG][_dm_update_len_param] ./lens_param.txt Open failed, use default param
+20181128 15:00:20.798[1693947648][DM][DBG][epc_calib_save] param_name:./dmcam_param_66998426.bin
+20181128 15:00:20.798[1693947648][DM][DBG][dmcam_param_open_file] open calib bin failed: ./dmcam_param_66998426.bin
+20181128 15:00:20.798[1693947648][DM][DBG][epc_calib_save] Try to load calib data from device
+20181128 15:00:20.798[1693947648][DM][DBG][dmcam_cap_config_set] set callback : on_cap_frdy->(nil), on_cap_err->(nil)
+20181128 15:00:20.798[1693947648][DM][DBG][dmcam_cap_config_set] set frame buffer: 4 frames
+20181128 15:00:20.858[1693947648][DM][DBG][dmcam_param_load_from_dev] valid:1, fsize:2457600, fr_num: 16
+20181128 15:00:20.899[1693947648][DM][DBG][epc_event_freq_change] MOD_FREQ change: 0 -> 12000000 HZ
+20181128 15:00:20.899[1693947648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=0]
+20181128 15:00:20.899[1693947648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=0]
+20181128 15:00:20.899[1693947648][DM][DBG][epc_calc_mount_calib] No calib data : freq=12000000. Use default scale_um/offset_mm = 1000/-2000
+20181128 15:00:20.939[1693947648][DM][DBG][_dmcam_cap_start] issue start cmd
+20181128 15:00:21.217[1693947648][DM][DBG][dmcam_cap_stop] Enter
+20181128 15:00:21.238[1693947648][DM][DBG][_dmcam_cap_replay_stop] disable replay saving
+20181128 15:00:21.296[1693947648][DM][DBG][_on_zip_extract_to_folder_entry] Extracted: ././dmcam_param_66998426.bin (1 of 1)
+20181128 15:00:21.296[1693947648][DM][DBG][_calib_pk_parse] unzip tmp.zip OK
+20181128 15:00:21.317[1693947648][DM][DBG][_param_verify] BLK param timestamp: 1537405899
+20181128 15:00:21.317[1693947648][DM][DBG][dmcam_param_open_file] calib param : ver = 140, blk cnt = 1, size = 3840542, cksum = 0x65ed
+20181128 15:00:21.344[1693947648][DM][DBG][_cal_load_calib_data] Calib data: freq=12000000, ver=140, ts=1537405899
+20181128 15:00:21.344[1693947648][DM][DBG][epc_calc_mount_calib] scale 30000 -> 32768
+20181128 15:00:21.350[1693947648][DM][DBG][epc_calc_mount_calib] Fix 1 pix calib issue of ref images: ver=140
+20181128 15:00:21.351[1693947648][DM][DBG][epc_calc_mount_calib] Re-calc DRNU step: orig step = 297.000
+20181128 15:00:21.368[1693947648][DM][DBG][epc_calc_mount_calib] Calib data of 1501 (1 %) pixels are NG
+20181128 15:00:21.369[1693947648][DM][DBG][epc_calc_mount_calib] Calib data loaded [freq=12000000, DRNU_LUT]: box_len: 29.5 cm, temp: cb=395, ib=325, step mm = 299.896, scale_um/offset_mm = 1000/-2137
+20181128 15:00:21.531[1693947648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:00:21.532[1693947648][DM][DBG][epc_on_update_intg_time] intg0: 700, hdr_en=0
+20181128 15:00:21.532[1693947648][DM][DBG][dmcam_dev_close] close dmcam device @ 0x7f595e5a3220
+20181128 15:00:21.533[1693947648][DM][DBG][usb_ll_dev_close] stop evt thread...
+20181128 15:00:21.722[1064113920][DM][DBG][_usb_ll_evt_thread] exit
+20181128 15:00:21.723[1693947648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=12000000]
+20181128 15:00:23.963[1693947648][DM][DBG][dmcam_dev_open] open dmcam device @ 0x7f595e5a3220
+20181128 15:00:23.963[1693947648][DM][DBG][_usb_ll_dev_open]  create usb context
+20181128 15:00:23.964[1693947648][DM][DBG][_usb_ll_dev_open] found dmcam device (speed=3) @ 001:005:003
+20181128 15:00:23.964[1064113920][DM][DBG][_usb_ll_evt_thread] enter
+20181128 15:00:24.045[1693947648][DM][DBG][_dmcam_get_info] SENSOR: p/w/cid=7/252/143. HWID=0xF15BAF2307FC008F
+20181128 15:00:24.045[1693947648][DM][DBG][dmcam_drv_find]  find driver: EPC chip driver (device=TM-E2-1.0 [SW=156,BT=146,HW=20])
+20181128 15:00:24.045[1693947648][DM][DBG][_dm_update_len_param] ./lens_param.txt Open failed, use default param
+20181128 15:00:24.370[1693947648][DM][DBG][epc_calib_save] param_name:./dmcam_param_66998426.bin
+20181128 15:00:24.370[1693947648][DM][DBG][_param_verify] BLK param timestamp: 1537405899
+20181128 15:00:24.370[1693947648][DM][DBG][dmcam_param_open_file] calib param : ver = 140, blk cnt = 1, size = 3840542, cksum = 0x65ed
+20181128 15:00:24.436[1693947648][DM][DBG][_cal_load_calib_data] Calib data: freq=12000000, ver=140, ts=1537405899
+20181128 15:00:24.436[1693947648][DM][DBG][epc_calc_mount_calib] scale 30000 -> 32768
+20181128 15:00:24.443[1693947648][DM][DBG][epc_calc_mount_calib] Fix 1 pix calib issue of ref images: ver=140
+20181128 15:00:24.445[1693947648][DM][DBG][epc_calc_mount_calib] Re-calc DRNU step: orig step = 297.000
+20181128 15:00:24.460[1693947648][DM][DBG][epc_calc_mount_calib] Calib data of 1501 (1 %) pixels are NG
+20181128 15:00:24.460[1693947648][DM][DBG][epc_calc_mount_calib] Calib data loaded [freq=12000000, DRNU_LUT]: box_len: 29.5 cm, temp: cb=395, ib=325, step mm = 299.896, scale_um/offset_mm = 1000/-2137
+20181128 15:00:24.562[1693947648][DM][DBG][dmcam_cap_config_set] set callback : on_cap_frdy->(nil), on_cap_err->(nil)
+20181128 15:00:24.562[1693947648][DM][DBG][dmcam_cap_config_set] set frame buffer: 10 frames
+20181128 15:00:24.562[1693947648][DM][DBG][dmcam_cap_set_callback_on_frame_ready] set on_cap_frdy to (nil)
+20181128 15:00:24.562[1693947648][DM][DBG][dmcam_cap_set_callback_on_error] set on_cap_err to (nil)
+20181128 15:00:24.582[1693947648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:00:24.582[1693947648][DM][DBG][epc_on_update_intg_time] intg0: 700, hdr_en=0
+20181128 15:00:24.704[1693947648][DM][DBG][epc_filter_disable] Disable sport mode
+20181128 15:00:24.724[1693947648][DM][DBG][_dmcam_param_batch_set] Set FPS:20
+20181128 15:00:24.826[1693947648][DM][DBG][_dmcam_cap_start] issue start cmd
+20181128 15:00:24.953[1178699520][DM][DBG][_feature_temp_monitor] INTERV:1543388424, IBtemp:37.70, Tsensor:41.00
+20181128 15:00:34.021[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.20, Tsensor:46.60
+20181128 15:00:44.048[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.60, Tsensor:47.70
+20181128 15:00:54.019[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.80, Tsensor:47.90
+20181128 15:01:04.003[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.80, Tsensor:48.30
+20181128 15:01:14.071[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:39.10, Tsensor:48.30
+20181128 15:01:24.031[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:39.10, Tsensor:48.30
+20181128 15:01:29.304[1693947648][DM][DBG][epc_event_freq_change] MOD_FREQ change: 12000000 -> 36000000 HZ
+20181128 15:01:29.304[1693947648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=12000000]
+20181128 15:01:29.304[1693947648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=0]
+20181128 15:01:29.304[1693947648][DM][DBG][epc_calc_mount_calib] No calib data : freq=36000000. Use default scale_um/offset_mm = 1000/-2000
+20181128 15:01:33.888[1693947648][DM][DBG][epc_event_freq_change] MOD_FREQ change: 36000000 -> 24000000 HZ
+20181128 15:01:33.889[1693947648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=0]
+20181128 15:01:33.889[1693947648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=0]
+20181128 15:01:33.889[1693947648][DM][DBG][epc_calc_mount_calib] No calib data : freq=24000000. Use default scale_um/offset_mm = 1000/-2000
+20181128 15:01:34.031[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:39.00, Tsensor:48.80
+20181128 15:01:37.584[1693947648][DM][DBG][epc_event_freq_change] MOD_FREQ change: 24000000 -> 12000000 HZ
+20181128 15:01:37.584[1693947648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=0]
+20181128 15:01:37.585[1693947648][DM][DBG][_cal_load_calib_data] Calib data: freq=12000000, ver=140, ts=1537405899
+20181128 15:01:37.586[1693947648][DM][DBG][epc_calc_mount_calib] scale 30000 -> 32768
+20181128 15:01:37.594[1693947648][DM][DBG][epc_calc_mount_calib] Fix 1 pix calib issue of ref images: ver=140
+20181128 15:01:37.596[1693947648][DM][DBG][epc_calc_mount_calib] Re-calc DRNU step: orig step = 297.000
+20181128 15:01:37.613[1693947648][DM][DBG][epc_calc_mount_calib] Calib data of 1501 (1 %) pixels are NG
+20181128 15:01:37.613[1693947648][DM][DBG][epc_calc_mount_calib] Calib data loaded [freq=12000000, DRNU_LUT]: box_len: 29.5 cm, temp: cb=395, ib=325, step mm = 299.896, scale_um/offset_mm = 1000/-2137
+20181128 15:01:41.740[1693947648][DM][DBG][epc_event_freq_change] MOD_FREQ change: 12000000 -> 36000000 HZ
+20181128 15:01:41.740[1693947648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=12000000]
+20181128 15:01:41.740[1693947648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=0]
+20181128 15:01:41.740[1693947648][DM][DBG][epc_calc_mount_calib] No calib data : freq=36000000. Use default scale_um/offset_mm = 1000/-2000
+20181128 15:01:44.036[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:39.00, Tsensor:49.10
+20181128 15:01:46.848[1693947648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:01:46.848[1693947648][DM][DBG][epc_on_update_intg_time] intg0: 350, hdr_en=0
+20181128 15:01:47.894[1693947648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:01:47.895[1693947648][DM][DBG][epc_on_update_intg_time] intg0: 190, hdr_en=0
+20181128 15:01:48.848[1693947648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:01:48.848[1693947648][DM][DBG][epc_on_update_intg_time] intg0: 880, hdr_en=0
+20181128 15:01:50.190[1693947648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:01:50.191[1693947648][DM][DBG][epc_on_update_intg_time] intg0: 1200, hdr_en=0
+20181128 15:01:51.712[1693947648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:01:51.712[1693947648][DM][DBG][epc_on_update_intg_time] intg0: 1370, hdr_en=0
+20181128 15:01:53.984[1693947648][DM][DBG][epc_event_freq_change] MOD_FREQ change: 36000000 -> 12000000 HZ
+20181128 15:01:53.985[1693947648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=0]
+20181128 15:01:53.986[1693947648][DM][DBG][_cal_load_calib_data] Calib data: freq=12000000, ver=140, ts=1537405899
+20181128 15:01:53.986[1693947648][DM][DBG][epc_calc_mount_calib] scale 30000 -> 32768
+20181128 15:01:53.992[1693947648][DM][DBG][epc_calc_mount_calib] Fix 1 pix calib issue of ref images: ver=140
+20181128 15:01:53.994[1693947648][DM][DBG][epc_calc_mount_calib] Re-calc DRNU step: orig step = 297.000
+20181128 15:01:54.014[1693947648][DM][DBG][epc_calc_mount_calib] Calib data of 1501 (1 %) pixels are NG
+20181128 15:01:54.015[1693947648][DM][DBG][epc_calc_mount_calib] Calib data loaded [freq=12000000, DRNU_LUT]: box_len: 29.5 cm, temp: cb=395, ib=325, step mm = 299.896, scale_um/offset_mm = 1000/-2137
+20181128 15:01:54.042[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.50, Tsensor:50.00
+20181128 15:01:55.923[1693947648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:01:55.924[1693947648][DM][DBG][epc_on_update_intg_time] intg0: 1100, hdr_en=0
+20181128 15:01:57.167[1693947648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:01:57.167[1693947648][DM][DBG][epc_on_update_intg_time] intg0: 880, hdr_en=0
+20181128 15:01:58.876[1693947648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:01:58.876[1693947648][DM][DBG][epc_on_update_intg_time] intg0: 520, hdr_en=0
+20181128 15:02:04.002[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:39.10, Tsensor:49.00
+20181128 15:02:14.006[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:39.00, Tsensor:49.00
+20181128 15:02:24.004[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.80, Tsensor:48.70
+20181128 15:02:25.173[1693947648][DM][DBG][epc_on_update_intg_time] intg1: 750, hdr_en=1
+20181128 15:02:25.174[1693947648][DM][DBG][epc_on_update_intg_time] intg0: 520, hdr_en=1
+20181128 15:02:26.955[1693947648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:02:26.955[1693947648][DM][DBG][epc_on_update_intg_time] intg0: 520, hdr_en=0
+20181128 15:02:34.016[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.90, Tsensor:48.60
+20181128 15:02:37.407[1178699520][DM][DBG][_feature_auto_intg] AUTO_INTG: 520->570
+20181128 15:02:37.427[1178699520][DM][DBG][epc_on_update_intg_time] intg0: 570, hdr_en=0
+20181128 15:02:37.477[1178699520][DM][DBG][_feature_auto_intg] AUTO_INTG: 570->620
+20181128 15:02:37.485[1064113920][DM][DBG][dm_stream_feed_input] discard frame: verify data checksum failed: sidx=31087
+20181128 15:02:37.485[1064113920][DM][DBG][_discard_cur_frame] discard frame: idx = 2590
+20181128 15:02:37.485[1064113920][DM][DBG][on_capture_event] trans discard 1 frames
+20181128 15:02:37.497[1178699520][DM][DBG][epc_on_update_intg_time] intg0: 620, hdr_en=0
+20181128 15:02:37.541[1178699520][DM][DBG][_feature_auto_intg] AUTO_INTG: 620->670
+20181128 15:02:37.562[1178699520][DM][DBG][epc_on_update_intg_time] intg0: 670, hdr_en=0
+20181128 15:02:37.611[1178699520][DM][DBG][_feature_auto_intg] AUTO_INTG: 670->720
+20181128 15:02:37.632[1178699520][DM][DBG][epc_on_update_intg_time] intg0: 720, hdr_en=0
+20181128 15:02:37.676[1178699520][DM][DBG][_feature_auto_intg] AUTO_INTG: 720->770
+20181128 15:02:37.696[1178699520][DM][DBG][epc_on_update_intg_time] intg0: 770, hdr_en=0
+20181128 15:02:37.748[1178699520][DM][DBG][_feature_auto_intg] AUTO_INTG: 770->820
+20181128 15:02:37.769[1178699520][DM][DBG][epc_on_update_intg_time] intg0: 820, hdr_en=0
+20181128 15:02:37.812[1178699520][DM][DBG][_feature_auto_intg] AUTO_INTG: 820->870
+20181128 15:02:37.833[1178699520][DM][DBG][epc_on_update_intg_time] intg0: 870, hdr_en=0
+20181128 15:02:37.882[1178699520][DM][DBG][_feature_auto_intg] AUTO_INTG: 870->920
+20181128 15:02:37.942[1178699520][DM][DBG][epc_on_update_intg_time] intg0: 920, hdr_en=0
+20181128 15:02:38.635[1064113920][DM][DBG][dm_stream_feed_input] discard frame: verify data checksum failed: sidx=31364
+20181128 15:02:38.635[1064113920][DM][DBG][_discard_cur_frame] discard frame: idx = 2613
+20181128 15:02:38.635[1064113920][DM][DBG][on_capture_event] trans discard 1 frames
+20181128 15:02:38.685[1064113920][DM][DBG][dm_stream_feed_input] discard frame: verify data checksum failed: sidx=31375
+20181128 15:02:38.685[1064113920][DM][DBG][_discard_cur_frame] discard frame: idx = 2614
+20181128 15:02:38.685[1064113920][DM][DBG][on_capture_event] trans discard 1 frames
+20181128 15:02:38.770[1064113920][DM][DBG][dm_stream_feed_input] discard frame: verify data checksum failed: sidx=31394
+20181128 15:02:38.770[1064113920][DM][DBG][_discard_cur_frame] discard frame: idx = 2616
+20181128 15:02:38.770[1064113920][DM][DBG][on_capture_event] trans discard 1 frames
+20181128 15:02:38.819[1064113920][DM][DBG][dm_stream_feed_input] discard frame: verify data checksum failed: sidx=31405
+20181128 15:02:38.820[1064113920][DM][DBG][_discard_cur_frame] discard frame: idx = 2617
+20181128 15:02:38.820[1064113920][DM][DBG][on_capture_event] trans discard 1 frames
+20181128 15:02:39.713[1064113920][DM][DBG][dm_stream_feed_input] discard frame: verify data checksum failed: sidx=31619
+20181128 15:02:39.713[1064113920][DM][DBG][_discard_cur_frame] discard frame: idx = 2634
+20181128 15:02:39.714[1064113920][DM][DBG][on_capture_event] trans discard 1 frames
+20181128 15:02:41.930[1064113920][DM][DBG][dm_stream_feed_input] discard frame: verify data checksum failed: sidx=32142
+20181128 15:02:41.930[1064113920][DM][DBG][_discard_cur_frame] discard frame: idx = 2678
+20181128 15:02:41.930[1064113920][DM][DBG][on_capture_event] trans discard 1 frames
+20181128 15:02:44.018[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:39.10, Tsensor:49.40
+20181128 15:02:54.028[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:39.50, Tsensor:49.20
+20181128 15:03:04.038[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:39.70, Tsensor:49.30
+20181128 15:03:14.003[1178699520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:39.70, Tsensor:49.50
+
+---- DMCAM v1.60(compile at Nov 22 2018 03:34:01) log start -----
+20181128 15:04:33.751[3394811648][DM][DBG][usb_ll_dev_list] probe dmcam device (max=16) in 11 usb device
+20181128 15:04:33.751[3394811648][DM][DBG][usb_ll_dev_list]   DMCAM device (speed=3) found @ 005:001:003, 0x1b59dd0
+20181128 15:04:34.118[3394811648][DM][DBG][dmcam_dev_open] open dmcam device @ 0x7ff5c3bb5220
+20181128 15:04:34.119[3394811648][DM][DBG][_usb_ll_dev_open]  create usb context
+20181128 15:04:34.120[3394811648][DM][DBG][_usb_ll_dev_open] found dmcam device (speed=3) @ 001:005:003
+20181128 15:04:34.121[2832525056][DM][DBG][_usb_ll_evt_thread] enter
+20181128 15:04:34.202[3394811648][DM][DBG][_dmcam_get_info] SENSOR: p/w/cid=7/252/143. HWID=0xF15BAF2307FC008F
+20181128 15:04:34.202[3394811648][DM][DBG][dmcam_drv_find]  find driver: EPC chip driver (device=TM-E2-1.0 [SW=156,BT=146,HW=20])
+20181128 15:04:34.202[3394811648][DM][DBG][_dm_update_len_param] ./lens_param.txt Open failed, use default param
+20181128 15:04:34.528[3394811648][DM][DBG][epc_calib_save] param_name:./dmcam_param_66998426.bin
+20181128 15:04:34.528[3394811648][DM][DBG][_param_verify] BLK param timestamp: 1537405899
+20181128 15:04:34.528[3394811648][DM][DBG][dmcam_param_open_file] calib param : ver = 140, blk cnt = 1, size = 3840542, cksum = 0x65ed
+20181128 15:04:34.594[3394811648][DM][DBG][_cal_load_calib_data] Calib data: freq=12000000, ver=140, ts=1537405899
+20181128 15:04:34.594[3394811648][DM][DBG][epc_calc_mount_calib] scale 30000 -> 32768
+20181128 15:04:34.604[3394811648][DM][DBG][epc_calc_mount_calib] Fix 1 pix calib issue of ref images: ver=140
+20181128 15:04:34.608[3394811648][DM][DBG][epc_calc_mount_calib] Re-calc DRNU step: orig step = 297.000
+20181128 15:04:34.629[3394811648][DM][DBG][epc_calc_mount_calib] Calib data of 1501 (1 %) pixels are NG
+20181128 15:04:34.629[3394811648][DM][DBG][epc_calc_mount_calib] Calib data loaded [freq=12000000, DRNU_LUT]: box_len: 29.5 cm, temp: cb=395, ib=325, step mm = 299.896, scale_um/offset_mm = 1000/-2137
+20181128 15:04:34.792[3394811648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:04:34.792[3394811648][DM][DBG][epc_on_update_intg_time] intg0: 700, hdr_en=0
+20181128 15:04:34.793[3394811648][DM][DBG][dmcam_dev_close] close dmcam device @ 0x7ff5c3bb5220
+20181128 15:04:34.793[3394811648][DM][DBG][usb_ll_dev_close] stop evt thread...
+20181128 15:04:34.982[2832525056][DM][DBG][_usb_ll_evt_thread] exit
+20181128 15:04:34.983[3394811648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=12000000]
+20181128 15:05:14.166[3394811648][DM][DBG][dmcam_dev_open] open dmcam device @ 0x7ff5c3bb5220
+20181128 15:05:14.167[3394811648][DM][DBG][_usb_ll_dev_open]  create usb context
+20181128 15:05:14.167[3394811648][DM][DBG][_usb_ll_dev_open] found dmcam device (speed=3) @ 001:005:003
+20181128 15:05:14.168[2832525056][DM][DBG][_usb_ll_evt_thread] enter
+20181128 15:05:14.248[3394811648][DM][DBG][_dmcam_get_info] SENSOR: p/w/cid=7/252/143. HWID=0xF15BAF2307FC008F
+20181128 15:05:14.249[3394811648][DM][DBG][dmcam_drv_find]  find driver: EPC chip driver (device=TM-E2-1.0 [SW=156,BT=146,HW=20])
+20181128 15:05:14.249[3394811648][DM][DBG][_dm_update_len_param] ./lens_param.txt Open failed, use default param
+20181128 15:05:14.574[3394811648][DM][DBG][epc_calib_save] param_name:./dmcam_param_66998426.bin
+20181128 15:05:14.574[3394811648][DM][DBG][_param_verify] BLK param timestamp: 1537405899
+20181128 15:05:14.574[3394811648][DM][DBG][dmcam_param_open_file] calib param : ver = 140, blk cnt = 1, size = 3840542, cksum = 0x65ed
+20181128 15:05:14.642[3394811648][DM][DBG][_cal_load_calib_data] Calib data: freq=12000000, ver=140, ts=1537405899
+20181128 15:05:14.642[3394811648][DM][DBG][epc_calc_mount_calib] scale 30000 -> 32768
+20181128 15:05:14.650[3394811648][DM][DBG][epc_calc_mount_calib] Fix 1 pix calib issue of ref images: ver=140
+20181128 15:05:14.651[3394811648][DM][DBG][epc_calc_mount_calib] Re-calc DRNU step: orig step = 297.000
+20181128 15:05:14.673[3394811648][DM][DBG][epc_calc_mount_calib] Calib data of 1501 (1 %) pixels are NG
+20181128 15:05:14.674[3394811648][DM][DBG][epc_calc_mount_calib] Calib data loaded [freq=12000000, DRNU_LUT]: box_len: 29.5 cm, temp: cb=395, ib=325, step mm = 299.896, scale_um/offset_mm = 1000/-2137
+20181128 15:05:14.775[3394811648][DM][DBG][dmcam_cap_config_set] set callback : on_cap_frdy->(nil), on_cap_err->(nil)
+20181128 15:05:14.775[3394811648][DM][DBG][dmcam_cap_config_set] set frame buffer: 10 frames
+20181128 15:05:14.775[3394811648][DM][DBG][dmcam_cap_set_callback_on_frame_ready] set on_cap_frdy to (nil)
+20181128 15:05:14.775[3394811648][DM][DBG][dmcam_cap_set_callback_on_error] set on_cap_err to (nil)
+20181128 15:05:14.796[3394811648][DM][DBG][epc_on_update_intg_time] intg1: 0, hdr_en=0
+20181128 15:05:14.796[3394811648][DM][DBG][epc_on_update_intg_time] intg0: 700, hdr_en=0
+20181128 15:05:14.918[3394811648][DM][DBG][epc_filter_disable] Disable sport mode
+20181128 15:05:14.938[3394811648][DM][DBG][_dmcam_param_batch_set] Set FPS:20
+20181128 15:05:15.041[3394811648][DM][DBG][_dmcam_cap_start] issue start cmd
+20181128 15:05:15.167[2879563520][DM][DBG][_feature_temp_monitor] INTERV:1543388715, IBtemp:36.50, Tsensor:39.50
+20181128 15:05:25.038[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:37.00, Tsensor:45.20
+20181128 15:05:35.064[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:37.50, Tsensor:46.20
+20181128 15:05:45.043[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:37.80, Tsensor:46.80
+20181128 15:05:55.012[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.00, Tsensor:47.00
+20181128 15:06:05.040[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.00, Tsensor:47.30
+20181128 15:06:15.041[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.20, Tsensor:47.70
+20181128 15:06:25.048[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.30, Tsensor:47.60
+20181128 15:06:35.005[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.30, Tsensor:47.90
+20181128 15:06:45.014[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.40, Tsensor:47.70
+20181128 15:06:55.021[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.30, Tsensor:48.10
+20181128 15:07:05.022[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.40, Tsensor:48.20
+20181128 15:07:15.038[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.50, Tsensor:48.10
+20181128 15:07:25.038[2879563520][DM][DBG][_feature_temp_monitor] INTERV:10, IBtemp:38.50, Tsensor:48.20
+20181128 15:07:27.419[3394811648][DM][DBG][dmcam_cap_stop] Enter
+20181128 15:07:27.440[3394811648][DM][DBG][_dmcam_cap_replay_stop] disable replay saving
+20181128 15:07:27.440[3394811648][DM][DBG][dmcam_dev_close] close dmcam device @ 0x7ff5c3bb5220
+20181128 15:07:27.440[3394811648][DM][DBG][usb_ll_dev_close] stop evt thread...
+20181128 15:07:27.630[2832525056][DM][DBG][_usb_ll_evt_thread] exit
+20181128 15:07:27.631[3394811648][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=12000000]
+---- DMCAM log END ----
+

@@ -1,0 +1,301 @@
+2019/09/04 14:50:23.656[2238170944][INF] [dmcam_init]  --- DMCAM v1.43(compile at Aug  7 2018 20:02:01) log start -----
+2019/09/04 14:50:23.665[2238170944][DBG] [usb_ll_dev_list] probe dmcam device (max=8) in 15 usb device
+2019/09/04 14:50:23.665[2238170944][DBG] [usb_ll_dev_list]   DMCAM device (speed=3) found @ 001:001:002, 0x2f45370
+2019/09/04 14:50:23.665[2238170944][DBG] [dmcam_dev_open] open dmcam device @ 0x667e40
+2019/09/04 14:50:23.665[2238170944][DBG] [_usb_ll_dev_open]  create usb context
+2019/09/04 14:50:23.670[2238170944][DBG] [_usb_ll_dev_open] open dmcam device @ 001:001:002
+2019/09/04 14:50:23.670[2238170944][DBG] [_dmcam_param_batch_get] get 4 param
+2019/09/04 14:50:23.670[2213840640][DBG] [_usb_ll_evt_thread] enter
+2019/09/04 14:50:23.752[2238170944][DBG] [dmcam_drv_find]  find driver for device TM-E2-1.0 : EPC chip driver
+2019/09/04 14:50:23.753[2238170944][DBG] [_dm_update_len_param] ./lens_param.txt Open failed, use default param
+2019/09/04 14:50:23.756[2238170944][DBG] [epc_init] FW_VER:152
+2019/09/04 14:50:23.756[2238170944][DBG] [_dmcam_param_batch_get] get 1 param
+2019/09/04 14:50:24.067[2238170944][DBG] [calculateLoadGrayscaleGainOffset] Could not open ./grayscale660_gain_offset_W252_C214.txt file.
+2019/09/04 14:50:24.067[2238170944][DBG] [configLoadParameters] ambientLightFactor = 250.0000
+2019/09/04 14:50:24.067[2238170944][DBG] [configLoadParameters] print = 0
+2019/09/04 14:50:24.067[2238170944][DBG] [configLoadParameters] diffTemp = 7
+2019/09/04 14:50:24.067[2238170944][DBG] [configLoadParameters] drnuDelay = 5000
+2019/09/04 14:50:24.067[2238170944][DBG] [configLoadParameters] numAveragedFrames = 25
+2019/09/04 14:50:24.067[2238170944][DBG] [configLoadParameters] epc635_TemperatureCoeff = 1.561310
+2019/09/04 14:50:24.067[2238170944][DBG] [configLoadParameters] epc660_TemperatureCoeff = 1.700000
+2019/09/04 14:50:24.067[2238170944][DBG] [configLoadParameters] speed of light div 2 = 149896224.00
+2019/09/04 14:50:24.067[2238170944][DBG] [configLoadParameters] epc660_IbTemperatureCoeff = 0.337650
+2019/09/04 14:50:24.067[2238170944][DBG] [calibrationLoadDistanceImages] Can not open ./tcm_ex_images_drnu_W252_C214_10.bin file
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] *** device type and IDs: 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] chip_type: 20 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] icType: 0 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] partVersion: 0 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] waferID: 252 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] chipID: 214 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] sequencerVersion: 9 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] devAddress: 0x20 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] currentMode: 0 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] currentFreq: 2 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] modulationFrequency: 12000 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] modulationFrequencies[0]: 36000 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] modulationFrequencies[1]: 24000 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] modulationFrequencies[2]: 12000 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] modulationFrequencies[3]: 6000 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] modulationFrequencies[4]: 3000 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] modulationFrequencies[5]: 1500 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] modulationFrequencies[6]: 750 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] *** runtime settings: 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] integrationTime2D: 700 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] integrationTime3D: 700 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] integrationTime3DHDR: 700 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] nDCSTOF: 4 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] absEnabled: 1 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] isFLIM: 0 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] *** calibration/correction settings: 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] correctionBGMode: 0 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] enabledDRNU: 0 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] enabledDRNU2: 0 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] enabledGrayscale: 0 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] enabledTemperatureCorrection: 0 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] enabledAmbientLightCorrection: 0 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] *** Print level: 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] gPrint: 0 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] *** trimming values for temperature readout level: 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] gX: 0x10 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] gY: 0x39 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] gM: 52 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] gC: 141 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] gL: 0 
+2019/09/04 14:50:24.068[2238170944][DBG] [printChipParam] gZ: -268 
+2019/09/04 14:50:24.338[2238170944][DBG] [calibrationDataFileCheck] Can not open ./tcm_ex_images_drnu_W252_C214_10.bin file
+2019/09/04 14:50:24.338[2238170944][DBG] [dmcam_cap_set_frame_buffer] frame buffer: 40 frames
+2019/09/04 14:50:24.338[2238170944][DBG] [dmcam_cap_set_callback_on_error] set on_cap_err to (nil)
+2019/09/04 14:50:24.338[2238170944][DBG] [dmcam_cap_set_callback_on_frame_ready] set on_cap_frdy to (nil)
+2019/09/04 14:50:24.338[2238170944][DBG] [_dmcam_param_batch_set] set 1 param
+2019/09/04 14:50:24.359[2238170944][DBG] [_dmcam_param_batch_get] get 1 param
+2019/09/04 14:50:24.400[2238170944][DBG] [_dmcam_param_batch_get] get 1 param
+2019/09/04 14:50:24.441[2238170944][DBG] [_dmcam_cap_start] issue start cmd
+2019/09/04 14:50:24.494[2238170944][DBG] [_dmcam_param_batch_get] get 1 param
+2019/09/04 14:50:24.535[2238170944][DBG] [_feature_temp_monitor] INTERV:1567579824, IBtemp:29.70, Tsensor:31.70, FPS:20
+2019/09/04 14:50:24.535[2238170944][DBG] [_load_calib_data] get 1 frames: [0, 320x240, 171]
+2019/09/04 14:50:24.540[2238170944][WRN] [_calib_pk_parse] No zip used
+2019/09/04 14:50:24.540[2238170944][DBG] [dmcam_cap_stop] Enter
+2019/09/04 14:50:24.561[2238170944][DBG] [_dmcam_param_batch_set] set 1 param
+2019/09/04 14:50:24.848[2238170944][DBG] [calculateLoadGrayscaleGainOffset] Could not open ./grayscale660_gain_offset_W252_C214.txt file.
+2019/09/04 14:50:24.848[2238170944][DBG] [configLoadParameters] ambientLightFactor = 250.0000
+2019/09/04 14:50:24.848[2238170944][DBG] [configLoadParameters] print = 0
+2019/09/04 14:50:24.848[2238170944][DBG] [configLoadParameters] diffTemp = 7
+2019/09/04 14:50:24.849[2238170944][DBG] [configLoadParameters] drnuDelay = 5000
+2019/09/04 14:50:24.849[2238170944][DBG] [configLoadParameters] numAveragedFrames = 25
+2019/09/04 14:50:24.849[2238170944][DBG] [configLoadParameters] epc635_TemperatureCoeff = 1.561310
+2019/09/04 14:50:24.849[2238170944][DBG] [configLoadParameters] epc660_TemperatureCoeff = 1.700000
+2019/09/04 14:50:24.849[2238170944][DBG] [configLoadParameters] speed of light div 2 = 149896224.00
+2019/09/04 14:50:24.849[2238170944][DBG] [configLoadParameters] epc660_IbTemperatureCoeff = 0.337650
+2019/09/04 14:50:24.849[2238170944][DBG] [calibrationLoadDistanceImages] Can not open ./tcm_ex_images_drnu_W252_C214_10.bin file
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] *** device type and IDs: 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] chip_type: 20 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] icType: 0 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] partVersion: 0 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] waferID: 252 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] chipID: 214 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] sequencerVersion: 9 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] devAddress: 0x20 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] currentMode: 0 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] currentFreq: 2 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] modulationFrequency: 12000 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] modulationFrequencies[0]: 36000 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] modulationFrequencies[1]: 24000 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] modulationFrequencies[2]: 12000 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] modulationFrequencies[3]: 6000 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] modulationFrequencies[4]: 3000 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] modulationFrequencies[5]: 1500 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] modulationFrequencies[6]: 750 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] *** runtime settings: 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] integrationTime2D: 700 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] integrationTime3D: 700 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] integrationTime3DHDR: 700 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] nDCSTOF: 4 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] absEnabled: 1 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] isFLIM: 0 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] *** calibration/correction settings: 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] correctionBGMode: 0 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] enabledDRNU: 0 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] enabledDRNU2: 0 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] enabledGrayscale: 0 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] enabledTemperatureCorrection: 0 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] enabledAmbientLightCorrection: 0 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] *** Print level: 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] gPrint: 0 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] *** trimming values for temperature readout level: 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] gX: 0x10 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] gY: 0x39 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] gM: 52 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] gC: 141 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] gL: 0 
+2019/09/04 14:50:24.849[2238170944][DBG] [printChipParam] gZ: -268 
+2019/09/04 14:50:24.850[2238170944][DBG] [epc_calib_save] calib scale/offset = 1000/-3400 
+2019/09/04 14:50:24.850[2238170944][DBG] [dmcam_cap_set_frame_buffer] frame buffer: 10 frames
+2019/09/04 14:50:24.850[2238170944][DBG] [dmcam_cap_set_callback_on_error] set on_cap_err to 0x40f8c0
+2019/09/04 14:50:24.850[2238170944][DBG] [_dmcam_param_batch_get] get 5 param
+2019/09/04 14:50:24.933[2238170944][DBG] [dmcam_dev_close] close dmcam device @ 0x667e40
+2019/09/04 14:50:24.933[2238170944][DBG] [usb_ll_dev_close] stop evt thread...
+2019/09/04 14:50:25.123[2213840640][DBG] [_usb_ll_evt_thread] exit
+2019/09/04 14:50:25.124[2238170944][DBG] [dmcam_uninit] ----- AL log END ----
+
+
+---- DMCAM v1.70.2(compile at Aug 22 2019 07:08:52) log start -----
+20190904 14:50:25.142[1292928768][DM][DBG][eth_router_entry] eth router thread enter
+20190904 14:50:25.142[1292928768][DM][DBG][thserver_init] ---> Start server (0.0.0.0 @ 0) : workers = 1, policy = LB
+20190904 14:50:25.144[1292928768][DM][DBG][on_idle] Listener port : 34173
+20190904 14:50:25.144[1292928768][DM][DBG][on_idle] Press Ctrl + C to exit
+20190904 14:50:25.144[1292928768][DM][DBG][eth_router_on_ready] router ready: port=34173
+20190904 14:50:25.148[35842176][DM][DBG][usb_ll_dev_list] probe dmcam device (max=8) in 15 usb device
+20190904 14:50:25.148[35842176][DM][DBG][usb_ll_dev_list]   DMCAM device (speed=3) found @ 001:001:002
+20190904 14:50:25.148[35842176][DM][DBG][eth_ll_dev_list] udp port: 38172
+20190904 14:50:25.149[35842176][DM][DBG][eth_ll_dev_list] probe dmcam eth device (max=7) in 8 eth if
+20190904 14:50:25.149[35842176][DM][DBG][eth_ll_dev_list]    probe through eth=192.168.10.2: bc=192.168.10.255
+20190904 14:50:25.149[35842176][DM][DBG][eth_ll_dev_list]    probe through eth=10.161.54.19: bc=10.161.255.255
+20190904 14:50:25.949[35842176][DM][DBG][dmcam_dev_open] open dmcam device @ 0x8c0960
+20190904 14:50:25.952[35842176][DM][DBG][_usb_ll_dev_open]  create usb context
+20190904 14:50:25.954[35842176][DM][DBG][_usb_ll_dev_open] open dmcam device @ 001:001:002, EP_DIN=81, EP_DOUT=1
+20190904 14:50:25.954[1198008064][DM][DBG][_usb_ll_evt_thread] enter
+20190904 14:50:25.954[1198008064][DM][DBG][_ll_event_loop] Enter ll event loop...
+20190904 14:50:26.047[35842176][DM][DBG][_dmcam_get_info] SENSOR: p/w/cid=0/252/214. HWID=0xF75A1CE200FC00D6
+20190904 14:50:26.047[35842176][DM][DBG][dmcam_drv_find]  find driver: EPC chip driver (device=TM-E2-1.0 [SW=152,BT=146,HW=30])
+20190904 14:50:26.355[35842176][DM][DBG][_dm_update_len_param] ./lens_param.txt Open failed, use default param
+20190904 14:50:26.446[35842176][DM][DBG][epc_calib_save] param_name:./dmcam_param_100602065.bin
+20190904 14:50:26.446[35842176][DM][DBG][dmcam_param_open_file] open calib bin failed: ./dmcam_param_100602065.bin
+20190904 14:50:26.446[35842176][DM][DBG][epc_calib_save] Try to load calib data from device
+20190904 14:50:26.446[35842176][DM][DBG][dmcam_cap_stop] Enter
+20190904 14:50:26.466[35842176][DM][DBG][_dmcam_cap_replay_stop] disable replay saving
+20190904 14:50:26.466[35842176][DM][DBG][dmcam_cap_config_set] set callback : on_cap_frdy->(nil), on_cap_err->(nil)
+20190904 14:50:26.466[35842176][DM][DBG][dmcam_cap_config_set] set frame buffer: 4 frames
+20190904 14:50:26.528[35842176][DM][DBG][dmcam_param_load_from_dev] valid:1, fsize:3993600, fr_num: 26
+20190904 14:50:26.611[35842176][DM][DBG][epc_on_update_intg_time] intg2: 700, hdr_en=1
+20190904 14:50:26.611[35842176][DM][DBG][epc_event_freq_change] MOD_FREQ change: 0 -> 12000000 HZ
+20190904 14:50:26.611[35842176][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=0]
+20190904 14:50:26.611[35842176][DM][DBG][epc_calc_unmount_clib] Calib data unload [freq=0]
+20190904 14:50:26.611[35842176][DM][DBG][epc_calc_mount_calib] No calib data : freq=12000000. Use default scale_um/offset_mm = 1000/0
+20190904 14:50:26.652[35842176][DM][DBG][_dmcam_cap_start] issue start cmd
+20190904 14:50:26.678[1198008064][DM][DBG][on_capture_event] FB state: Idx:0, Total:0, rdyInBuf=0, rdyMaxWL=0
+20190904 14:50:27.083[35842176][DM][DBG][dmcam_cap_stop] Enter
+20190904 14:50:27.105[35842176][DM][DBG][_dmcam_cap_replay_stop] disable replay saving
+20190904 14:50:27.167[35842176][DM][DBG][_on_zip_extract_to_folder_entry] Extracted: ././dmcam_param_100602065.bin (1 of 1)
+20190904 14:50:27.167[35842176][DM][DBG][_calib_pk_parse] unzip tmp.zip OK
+20190904 14:50:27.188[35842176][DM][DBG][_param_verify] BLK param timestamp: 1532759448
+20190904 14:50:27.188[35842176][DM][DBG][dmcam_param_open_file] calib param : ver = 132, blk cnt = 2, size = 0, cksum = 0x0
+20190904 14:50:27.189[35842176][DM][DBG][_cal_load_calib_data] Calib data: freq=12000000, ver=132, ts=1532759448, noneed_calc_coeff:0
+20190904 14:50:27.190[35842176][DM][DBG][_epc_calc_calib_coeff] scale 30000 -> 32768
+20190904 14:50:27.201[35842176][DM][DBG][_epc_calc_calib_coeff] Fix 1 pix calib issue of ref images: ver=132
+20190904 14:50:27.202[35842176][DM][DBG][_epc_calc_calib_coeff] No Ns/Nf/Nc in calib data: use default Nc=arange(20)
+20190904 14:50:27.203[35842176][DM][DBG][_epc_calc_calib_coeff] MLF FIT (r=0.998373): 2448.245117, 289.729584, 0.000000, 0.000000
+20190904 14:50:27.203[35842176][DM][DBG][_epc_calc_calib_coeff] LSR FIT (r=0.998373): o=-2148.782959, s=0.998373
+20190904 14:50:27.203[35842176][DM][DBG][_epc_calc_calib_coeff] SIN FIT (r=0.879286): amp=87.836067, omega=0.002012, pha=-2.475461, ofs=-3.249427
+20190904 14:50:27.232[35842176][DM][DBG][_epc_calc_calib_coeff]  bad pixel blks: cnt = 0, fixed to use global (s, o) = 0.998373, -2148.782959
+20190904 14:50:27.233[35842176][DM][DBG][epc_calc_mount_calib] Calib data loaded [freq=12000000, DRNU_LUT (coef_cnt=2)]: box_len: 29.1 cm, temp: cb=421, ib=358, scale_um/offset_mm = 998/-2148
+20190904 14:50:27.335[35842176][DM][DBG][dmcam_cap_config_set] set callback : on_cap_frdy->(nil), on_cap_err->0x403a80
+20190904 14:50:27.335[35842176][DM][DBG][dmcam_cap_config_set] set frame buffer: 10 frames
+20190904 14:50:27.419[35842176][DM][DBG][dmcam_bin_data_write] Version:152,type:0, addr:0x10103000,data size:93098
+20190904 14:50:27.419[35842176][DM][INF][dmcam_bin_data_write] Upgrade from v152 to v172
+20190904 14:50:27.480[35842176][DM][INF][dmcam_bin_data_write]  * Erase ...
+20190904 14:50:27.933[35842176][DM][DBG][dmcam_bin_data_write] erase ack,1
+20190904 14:50:27.933[35842176][DM][DBG][dmcam_bin_data_write] erase ok,1
+20190904 14:50:27.933[35842176][DM][INF][dmcam_bin_data_write]  * Write ...
+20190904 14:50:28.582[35842176][DM][DBG][dmcam_bin_data_write] Data transfer finished.
+20190904 14:50:28.582[35842176][DM][WRN][dmcam_bin_data_write]  * Wait board to reset...
+20190904 14:50:28.583[35842176][DM][WRN][dmcam_bin_data_write] ----------------------------------------------------------
+20190904 14:50:28.583[35842176][DM][WRN][dmcam_bin_data_write] !!! DO NOT RESET or POWER OFF the board until return !!!!
+20190904 14:50:28.583[35842176][DM][WRN][dmcam_bin_data_write] ----------------------------------------------------------
+2019/09/04 14:54:00.746[740067136][INF] [dmcam_init]  --- DMCAM v1.43(compile at Aug  7 2018 20:02:01) log start -----
+2019/09/04 14:54:00.753[740067136][DBG] [usb_ll_dev_list] probe dmcam device (max=8) in 15 usb device
+2019/09/04 14:54:00.753[740067136][DBG] [usb_ll_dev_list]   DMCAM device (speed=3) found @ 001:001:012, 0x2ea4370
+2019/09/04 14:54:00.753[740067136][DBG] [dmcam_dev_open] open dmcam device @ 0x667e40
+2019/09/04 14:54:00.753[740067136][DBG] [_usb_ll_dev_open]  create usb context
+2019/09/04 14:54:00.757[740067136][DBG] [_usb_ll_dev_open] open dmcam device @ 001:001:012
+2019/09/04 14:54:00.757[740067136][DBG] [_dmcam_param_batch_get] get 4 param
+2019/09/04 14:54:00.757[715581184][DBG] [_usb_ll_evt_thread] enter
+2019/09/04 14:54:00.778[740067136][ERR] [usb_ll_exe_cmd] exe usb cmd failed: **UNKNOWN**
+2019/09/04 14:54:00.778[740067136][WRN] [dmcam_dev_open]  cannot get info of device
+2019/09/04 14:54:00.778[740067136][DBG] [usb_ll_dev_close] stop evt thread...
+2019/09/04 14:54:00.968[715581184][DBG] [_usb_ll_evt_thread] exit
+2019/09/04 14:54:00.969[740067136][DBG] [dmcam_uninit] ----- AL log END ----
+
+2019/09/04 14:54:09.936[2041239360][INF] [dmcam_init]  --- DMCAM v1.43(compile at Aug  7 2018 20:02:01) log start -----
+2019/09/04 14:54:09.942[2041239360][DBG] [usb_ll_dev_list] probe dmcam device (max=8) in 15 usb device
+2019/09/04 14:54:09.942[2041239360][DBG] [usb_ll_dev_list]   DMCAM device (speed=3) found @ 001:001:012, 0x368c370
+2019/09/04 14:54:09.942[2041239360][DBG] [dmcam_dev_open] open dmcam device @ 0x667e40
+2019/09/04 14:54:09.943[2041239360][DBG] [_usb_ll_dev_open]  create usb context
+2019/09/04 14:54:09.947[2041239360][DBG] [_usb_ll_dev_open] open dmcam device @ 001:001:012
+2019/09/04 14:54:09.947[2041239360][DBG] [_dmcam_param_batch_get] get 4 param
+2019/09/04 14:54:09.947[2016753408][DBG] [_usb_ll_evt_thread] enter
+2019/09/04 14:54:09.968[2041239360][ERR] [usb_ll_exe_cmd] exe usb cmd failed: **UNKNOWN**
+2019/09/04 14:54:09.968[2041239360][WRN] [dmcam_dev_open]  cannot get info of device
+2019/09/04 14:54:09.968[2041239360][DBG] [usb_ll_dev_close] stop evt thread...
+2019/09/04 14:54:10.158[2016753408][DBG] [_usb_ll_evt_thread] exit
+2019/09/04 14:54:10.159[2041239360][DBG] [dmcam_uninit] ----- AL log END ----
+
+2019/09/04 14:54:25.360[1671997248][INF] [dmcam_init]  --- DMCAM v1.43(compile at Aug  7 2018 20:02:01) log start -----
+2019/09/04 14:54:25.366[1671997248][DBG] [usb_ll_dev_list] probe dmcam device (max=8) in 15 usb device
+2019/09/04 14:54:25.366[1671997248][DBG] [usb_ll_dev_list]   DMCAM device (speed=3) found @ 001:001:012, 0x3929370
+2019/09/04 14:54:25.367[1671997248][DBG] [dmcam_dev_open] open dmcam device @ 0x667e40
+2019/09/04 14:54:25.367[1671997248][DBG] [_usb_ll_dev_open]  create usb context
+2019/09/04 14:54:25.371[1671997248][DBG] [_usb_ll_dev_open] open dmcam device @ 001:001:012
+2019/09/04 14:54:25.372[1671997248][DBG] [_dmcam_param_batch_get] get 4 param
+2019/09/04 14:54:25.372[1647511296][DBG] [_usb_ll_evt_thread] enter
+2019/09/04 14:54:25.392[1671997248][ERR] [usb_ll_exe_cmd] exe usb cmd failed: **UNKNOWN**
+2019/09/04 14:54:25.392[1671997248][WRN] [dmcam_dev_open]  cannot get info of device
+2019/09/04 14:54:25.392[1671997248][DBG] [usb_ll_dev_close] stop evt thread...
+2019/09/04 14:54:25.582[1647511296][DBG] [_usb_ll_evt_thread] exit
+2019/09/04 14:54:25.583[1671997248][DBG] [dmcam_uninit] ----- AL log END ----
+
+2019/09/04 14:54:29.486[26535744][INF] [dmcam_init]  --- DMCAM v1.43(compile at Aug  7 2018 20:02:01) log start -----
+2019/09/04 14:54:29.494[26535744][DBG] [usb_ll_dev_list] probe dmcam device (max=8) in 15 usb device
+2019/09/04 14:54:29.494[26535744][DBG] [usb_ll_dev_list]   DMCAM device (speed=3) found @ 001:001:012, 0x48c8370
+2019/09/04 14:54:29.494[26535744][DBG] [dmcam_dev_open] open dmcam device @ 0x667e40
+2019/09/04 14:54:29.494[26535744][DBG] [_usb_ll_dev_open]  create usb context
+2019/09/04 14:54:29.499[26535744][DBG] [_usb_ll_dev_open] open dmcam device @ 001:001:012
+2019/09/04 14:54:29.499[26535744][DBG] [_dmcam_param_batch_get] get 4 param
+2019/09/04 14:54:29.499[2049792][DBG] [_usb_ll_evt_thread] enter
+2019/09/04 14:54:29.520[26535744][ERR] [usb_ll_exe_cmd] exe usb cmd failed: **UNKNOWN**
+2019/09/04 14:54:29.520[26535744][WRN] [dmcam_dev_open]  cannot get info of device
+2019/09/04 14:54:29.520[26535744][DBG] [usb_ll_dev_close] stop evt thread...
+2019/09/04 14:54:29.710[2049792][DBG] [_usb_ll_evt_thread] exit
+2019/09/04 14:54:29.711[26535744][DBG] [dmcam_uninit] ----- AL log END ----
+
+2019/09/04 14:55:06.272[2266605376][INF] [dmcam_init]  --- DMCAM v1.43(compile at Aug  7 2018 20:02:01) log start -----
+2019/09/04 14:55:06.278[2266605376][DBG] [usb_ll_dev_list] probe dmcam device (max=8) in 15 usb device
+2019/09/04 14:55:06.278[2266605376][DBG] [usb_ll_dev_list]   DMCAM device (speed=3) found @ 001:001:014, 0x3d93370
+2019/09/04 14:55:06.279[2266605376][DBG] [dmcam_dev_open] open dmcam device @ 0x667e40
+2019/09/04 14:55:06.279[2266605376][DBG] [_usb_ll_dev_open]  create usb context
+2019/09/04 14:55:06.283[2266605376][DBG] [_usb_ll_dev_open] open dmcam device @ 001:001:014
+2019/09/04 14:55:06.284[2266605376][DBG] [_dmcam_param_batch_get] get 4 param
+2019/09/04 14:55:06.284[2242119424][DBG] [_usb_ll_evt_thread] enter
+2019/09/04 14:55:06.304[2266605376][ERR] [usb_ll_exe_cmd] exe usb cmd failed: **UNKNOWN**
+2019/09/04 14:55:06.304[2266605376][WRN] [dmcam_dev_open]  cannot get info of device
+2019/09/04 14:55:06.304[2266605376][DBG] [usb_ll_dev_close] stop evt thread...
+2019/09/04 14:55:06.494[2242119424][DBG] [_usb_ll_evt_thread] exit
+2019/09/04 14:55:06.495[2266605376][DBG] [dmcam_uninit] ----- AL log END ----
+
+2019/09/04 14:56:10.639[2058364736][INF] [dmcam_init]  --- DMCAM v1.43(compile at Aug  7 2018 20:02:01) log start -----
+2019/09/04 14:56:10.646[2058364736][DBG] [usb_ll_dev_list] probe dmcam device (max=8) in 15 usb device
+2019/09/04 14:56:10.646[2058364736][DBG] [usb_ll_dev_list]   DMCAM device (speed=3) found @ 001:001:014, 0x2e83370
+2019/09/04 14:56:10.646[2058364736][DBG] [dmcam_dev_open] open dmcam device @ 0x667e40
+2019/09/04 14:56:10.646[2058364736][DBG] [_usb_ll_dev_open]  create usb context
+2019/09/04 14:56:10.651[2058364736][DBG] [_usb_ll_dev_open] open dmcam device @ 001:001:014
+2019/09/04 14:56:10.651[2058364736][DBG] [_dmcam_param_batch_get] get 4 param
+2019/09/04 14:56:10.651[2033878784][DBG] [_usb_ll_evt_thread] enter
+2019/09/04 14:56:10.671[2058364736][ERR] [usb_ll_exe_cmd] exe usb cmd failed: **UNKNOWN**
+2019/09/04 14:56:10.671[2058364736][WRN] [dmcam_dev_open]  cannot get info of device
+2019/09/04 14:56:10.671[2058364736][DBG] [usb_ll_dev_close] stop evt thread...
+2019/09/04 14:56:10.862[2033878784][DBG] [_usb_ll_evt_thread] exit
+2019/09/04 14:56:10.862[2058364736][DBG] [dmcam_uninit] ----- AL log END ----
+
+2019/09/04 14:57:33.457[2478053184][INF] [dmcam_init]  --- DMCAM v1.43(compile at Aug  7 2018 20:02:01) log start -----
+2019/09/04 14:57:33.463[2478053184][DBG] [usb_ll_dev_list] probe dmcam device (max=8) in 15 usb device
+2019/09/04 14:57:33.463[2478053184][DBG] [usb_ll_dev_list]   DMCAM device (speed=3) found @ 001:001:014, 0x4179370
+2019/09/04 14:57:33.463[2478053184][DBG] [dmcam_dev_open] open dmcam device @ 0x667e40
+2019/09/04 14:57:33.463[2478053184][DBG] [_usb_ll_dev_open]  create usb context
+2019/09/04 14:57:33.468[2478053184][DBG] [_usb_ll_dev_open] open dmcam device @ 001:001:014
+2019/09/04 14:57:33.468[2478053184][DBG] [_dmcam_param_batch_get] get 4 param
+2019/09/04 14:57:33.468[2453567232][DBG] [_usb_ll_evt_thread] enter
+2019/09/04 14:57:33.489[2478053184][ERR] [usb_ll_exe_cmd] exe usb cmd failed: **UNKNOWN**
+2019/09/04 14:57:33.489[2478053184][WRN] [dmcam_dev_open]  cannot get info of device
+2019/09/04 14:57:33.489[2478053184][DBG] [usb_ll_dev_close] stop evt thread...
+2019/09/04 14:57:33.679[2453567232][DBG] [_usb_ll_evt_thread] exit
+2019/09/04 14:57:33.680[2478053184][DBG] [dmcam_uninit] ----- AL log END ----
+

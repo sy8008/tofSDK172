@@ -1,0 +1,2 @@
+1.根据自身系统进入windows或者linux
+2.windows下运行fw_upgrade.bat,linux下运行fw_upgrade_linux.sh
